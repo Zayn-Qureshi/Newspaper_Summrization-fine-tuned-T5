@@ -16,26 +16,6 @@ The project was developed locally in **VS Code**, then deployed to **Hugging Fac
 
 ---
 
-## Project Structure
-
-### Local Folder (`NewspaperSummarization`)
-NewspaperSummarization/
-│
-├─ app.py # Main Flask application
-├─ index.html # Web interface (HTML template)
-├─ requirements.txt # Python dependencies
-├─ fine_tuned_t5/ # Fine-tuned T5 model files (local)
-│ ├─ config.json
-│ ├─ tokenizer_config.json
-│ ├─ spiece.model
-│ ├─ added_tokens.json
-│ ├─ special_tokens_map.json
-│ ├─ model.safetensors
-│ └─ generation_config.json
-
-shell
-Copy code
-
 ### Hugging Face Spaces Repo (`newspaper-summarization-app`)
 newspaper-summarization-app/
 │
