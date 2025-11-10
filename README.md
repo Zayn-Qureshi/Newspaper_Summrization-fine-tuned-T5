@@ -7,7 +7,7 @@ This project is deployed on Hugging Face Spaces and includes both the model and 
 
 🔗 Hugging Face Space: 
 
-https://huggingface.co/spaces/Zain78877/news_summarizer_t5
+https://huggingface.co/spaces/Zain78877/news-summarization-demo
 
 📌 Features
 
@@ -29,7 +29,7 @@ This project uses a fine-tuned T5 model that you trained on your dataset.
 
 Model repo on Hugging Face:
 
-https://huggingface.co/<your-username>/<your-model-name>
+https://huggingface.co/Zain78877/news_summarizer_t5/tree/main
 
 
 Structure inside your model folder:
