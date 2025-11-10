@@ -5,8 +5,7 @@ This project is deployed on Hugging Face Spaces and includes both the model and 
 
 🚀 Live Demo
 
-🔗 Hugging Face Space: Add your link here
-Example:
+🔗 Hugging Face Space: 
 
 https://huggingface.co/spaces/Zain78877/news_summarizer_t5
 
