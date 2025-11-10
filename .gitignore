@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+env/
+.env
+*.pth
+*.h5
+*.model
+.idea/
+node_modules/
+.DS_Store
+fine_tuned_t5/model.safetensors
