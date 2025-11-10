@@ -8,7 +8,7 @@ This project is a **web application** that summarizes newspaper articles or PDFs
 
 - Summarizes text or PDFs into concise summaries.  
 - Removes duplicate or near-duplicate sentences for cleaner output.  
-- Developed locally in **VS Code** and deployed to **Hugging Face Spaces** for public access.  
+- Developed locally in **pyccharm** and deployed to **Hugging Face Spaces** for public access.  
 
 ---
 
