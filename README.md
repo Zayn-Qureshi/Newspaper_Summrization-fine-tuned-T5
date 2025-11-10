@@ -72,7 +72,7 @@ https://huggingface.co/spaces/Zain78877/news-summarization-demo
 
 🧪 API Usage
 POST /summarize
-curl -X POST http://127.0.0.1:5000/summarize \
+curl -X POST 
      -H "Content-Type: application/json" \
      -d '{"text": "Your long text here"}'
 
