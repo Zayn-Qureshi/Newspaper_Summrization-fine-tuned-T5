@@ -8,7 +8,7 @@ This project is deployed on Hugging Face Spaces and includes both the model and 
 🔗 Hugging Face Space: Add your link here
 Example:
 
-https://huggingface.co/spaces/<your-username>/<your-space-name>
+https://huggingface.co/spaces/Zain78877/news_summarizer_t5
 
 📌 Features
 
