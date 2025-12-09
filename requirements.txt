@@ -1,0 +1,7 @@
+Flask>=2.2
+transformers>=4.41
+safetensors>=0.4
+PyPDF2>=1.26
+torch>=2.0.0
+sentencepiece>=0.1.97
+gradio>=3.50   # Only if you plan to use Gradio for live demo

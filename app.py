@@ -5,11 +5,8 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 import PyPDF2  # New import for PDF handling
 import re
 import difflib
-from load_model import model, tokenizer, summarize
 
-text = "summarize: Your news article goes here..."
-summary_text = summarize(text)
-print(summary_text)
+
 
 app = Flask(__name__, template_folder=os.path.join(os.path.dirname(__file__), "templates"))
 
@@ -85,10 +82,9 @@ def _dedupe_near_duplicate_sentences(text, similarity_threshold=0.85):
 def extract_text_from_pdf(pdf_file):
     """Extracts text from a PDF file."""
     text = ""
-    with open(pdf_file, "rb") as file:
-        reader = PyPDF2.PdfReader(file)
-        for page in reader.pages:
-            text += page.extract_text() + "\n"
+    reader = PyPDF2.PdfReader(pdf_file)
+    for page in reader.pages:
+        text += page.extract_text() + "\n"
     return text.strip()
 
 
@@ -122,4 +118,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
