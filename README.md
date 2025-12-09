@@ -95,7 +95,44 @@ HTML / CSS / JS
 
 Hugging Face Spaces
 
-🚀 Deployment on Hugging Face Spaces
+� Docker Deployment
+
+This app is now available as a Docker image for easy deployment!
+
+**Option 1: Pull from Docker Hub**
+
+```bash
+docker pull zain1222/newspaper-summarizer:latest
+docker run -p 5000:5000 zain1222/newspaper-summarizer:latest
+```
+
+Visit `http://localhost:5000` in your browser.
+
+**Option 2: Build from Source**
+
+```bash
+git clone https://github.com/Zayn-Qureshi/Newspaper_Summrization-fine-tuned-T5.git
+cd Newspaper_Summrization-fine-tuned-T5
+docker build -t newspaper-summarizer .
+docker run -p 5000:5000 newspaper-summarizer
+```
+
+**Using Docker Compose**
+
+```bash
+docker-compose up
+```
+
+**Docker Hub Repository:**
+https://hub.docker.com/r/zain1222/newspaper-summarizer
+
+🐛 Recent Updates
+
+✅ **Fixed:** PDF upload bug - Now properly handles PDF file uploads
+✅ **Added:** Complete Docker support with optimized CPU-only build
+✅ **Added:** Docker Compose configuration for easy deployment
+
+�🚀 Deployment on Hugging Face Spaces
 
 Upload:
 
